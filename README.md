@@ -1,20 +1,20 @@
 
 
 # Heroku Google Drive
-Remote [Google Drive client](https://github.com/ewwink/heroku-google-drive) on Heroku using Rclone and Aria2
+Remote [Google Drive client](https://github.com/z-githubz/heroku-google-drive) on Heroku using Rclone and Aria2
 
 ## Installation
 Create new app
 
 ```
-heroku create myapp -b https://github.com/ewwink/heroku-google-drive.git
+heroku create myapp -b https://github.com/z-githubz/heroku-google-drive.git
 heroku git:clone -a myapp
 ```
 
 Existing app, use: `add|set`
 
 ```
-heroku buildpacks:set https://github.com/ewwink/heroku-google-drive.git -a myapp
+heroku buildpacks:set https://github.com/z-githubz/heroku-google-drive.git -a myapp
 ```
 
 go to `myapp` directory, create or copy `rclone.conf` and winrar registraton key `.rarreg.key` (optional) then commit the change
